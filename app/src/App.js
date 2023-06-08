@@ -11,7 +11,7 @@ function App() {
         </section>
         <div className="container">
           <div className="containerText">
-            <h1 id="greeting">Hello 👋</h1>
+            <h1 id="greeting">Hello <span id="wave">👋</span></h1>
             <h1 id="name">I'm Mohamed Abdulnassir</h1>
             <h2>Software developer</h2>
           </div>
