@@ -29,6 +29,15 @@ body {
   color: #FFFFFF;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 8%;
+}
+
+.header > h1 {
+  display: inline;
+}
 #m {
   font-size: 3rem;
 }
@@ -41,7 +50,10 @@ body {
   width: 60%;
   height: 40%;
   justify-content: space-around;
-  font-size: 1.2rem;
+}
+
+.containerText {
+  font-size: 1.6vw;
 }
 
 img {
