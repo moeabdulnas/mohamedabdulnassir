@@ -43,12 +43,11 @@ body {
 }
 
 .container {
-  margin: 10rem auto;
+  margin: 10vh auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 60%;
-  height: 40%;
   justify-content: space-around;
 }
 
@@ -82,4 +81,37 @@ img {
    70% { transform: rotate(6deg) }
    80% { transform: rotate( 0.0deg) }  
   100% { transform: rotate( 0.0deg) }
+}
+
+.techContainer {
+  margin-top: 10%;
+  position: absolute;
+}
+
+#techText {
+  font-size: 1.6vw;
+}
+
+#tech {
+  display: flex;
+  margin-top: 2%;
+}
+
+#tech > h2 {
+  margin-right: 4%;
+}
+
+#buttonContainer {
+  text-align: center;
+  margin-top: 16%;
+}
+
+#button {
+  font-size: 1.2vw;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: #e63946;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
