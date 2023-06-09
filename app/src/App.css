@@ -36,21 +36,28 @@ body {
   /* font-size: 3rem; */
 }
 
-/* .header > h1 {
-  display: inline;
-} */
-.links {
-  display: flex;
-}
 
-#linkedin {
-  margin-right: 2vw;
-}
 
 #m {
-  font-size: 3rem;
+  font-size: 3.5rem;
+  height: max-content;
+
 }
 
+/* .links {
+  display: flex;
+
+} */
+
+.devicon-linkedin-plain {
+  margin-right: 2.5vw;
+}
+
+.header-logo {
+  font-size: 2rem;
+  position: relative;
+  top: 24px;
+}
 .container {
   margin: 10vh auto;
   display: flex;

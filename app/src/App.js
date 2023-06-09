@@ -8,8 +8,10 @@ function App() {
       <div className="header">
         <h1 id="m">m</h1>
         <div className="links">
-          <h1 id="linkedin">in</h1>
-          <h1 id="github">g</h1>
+          {/* <h1 id="linkedin">in</h1> 
+           <h1 id="github">g</h1> */}
+          <i class="devicon-linkedin-plain header-logo"></i>
+          <i class="devicon-github-original header-logo"></i>
         </div>
       </div>
 
