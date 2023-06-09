@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Prism&display=swap');
+
 /* CSS reset*/
 html {
   box-sizing: border-box;
@@ -27,7 +29,7 @@ img {
 /* Styling */
 body {
   background-color: #1D3557;
-  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: system-ui, "Segoe UI", "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #FFFFFF;
 }
 
@@ -38,8 +40,13 @@ body {
 }
 
 #m {
-  font-size: 3.5rem;
-  height: max-content;
+  font-size: 3rem;
+  background-color: white;
+  padding: 0 12px;
+  color: #1d3557;
+  border-radius: 8px;
+  font-family: 'Italianno', cursive;
+  font-weight: 550;
 }
 
 .devicon-linkedin-plain {
@@ -112,7 +119,7 @@ img {
 
 .tech {
   text-align: center;
-  margin-right: 8px;
+  margin-right: 16px;
 }
 
 #tech-name {
