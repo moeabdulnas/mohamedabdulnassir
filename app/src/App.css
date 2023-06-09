@@ -32,12 +32,21 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 2% 8%;
+  margin: 3% 8%;
+  /* font-size: 3rem; */
 }
 
-.header > h1 {
+/* .header > h1 {
   display: inline;
+} */
+.links {
+  display: flex;
 }
+
+#linkedin {
+  margin-right: 2vw;
+}
+
 #m {
   font-size: 3rem;
 }
