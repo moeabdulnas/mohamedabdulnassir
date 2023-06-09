@@ -44,11 +44,6 @@ body {
 
 }
 
-/* .links {
-  display: flex;
-
-} */
-
 .devicon-linkedin-plain {
   margin-right: 2.5vw;
 }
@@ -108,14 +103,12 @@ img {
   font-size: 1.6vw;
 }
 
-#tech {
+.stack {
   display: flex;
-  margin-top: 2%;
+  margin-top: 4%;
 }
 
-#tech > h2 {
-  margin-right: 4%;
-}
+
 
 #buttonContainer {
   text-align: center;

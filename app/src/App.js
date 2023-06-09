@@ -24,16 +24,44 @@ function App() {
             <h5>Linköping, Sweden</h5>
 
             <div className="techContainer">
-              <h1 id="techText">Technologies I use</h1>
-              <div id="tech">
-                <h2>🥰</h2>
-                <h2>🥰</h2>
-                <h2>🥰</h2>
-                <h2>🥰</h2>
-                <h2>🥰</h2>
-                <h2>🥰</h2>
-                <h2>🥰</h2>
-                <h2>🥰</h2>
+              <h1 id="techText">Technologies I mainly use</h1>
+              <div className="stack"> 
+                <div className="javascript tech">
+                  <i class="devicon-javascript-plain colored"></i>
+                  <p id="tech-name">javascript</p>
+                </div>           
+                <div className="python tech">
+                  <i class="devicon-python-plain colored"></i>
+                  <p id="tech-name">javascript</p>
+                </div>           
+                <div className="react tech">
+                  <i class="devicon-react-original colored"></i>
+                  <p id="tech-name">javascript</p>
+                </div>           
+                <div className="git tech">
+                  <i class="devicon-git-plain colored"></i> 
+                  <p id="tech-name">javascript</p>
+                </div>           
+                <div className="node tech">
+                  <i class="devicon-nodejs-plain colored"></i>
+                  <p id="tech-name">javascript</p>
+                </div>           
+                <div className="express tech">
+                  <i class="devicon-express-original"></i>
+                  <p id="tech-name">javascript</p>
+                </div>           
+                <div className="mongodb tech">
+                  <i class="devicon-mongodb-plain colored"></i>
+                  <p id="tech-name">javascript</p>
+                </div>           
+                <div className="html tech">
+                  <i class="devicon-html5-plain colored"></i>
+                  <p id="tech-name">javascript</p>
+                </div>           
+                  <i class="devicon-css3-plain colored"></i>
+                  <p id="tech-name">javascript</p>
+                <div className="css tech">
+                </div>           
               </div>
             </div>
 
