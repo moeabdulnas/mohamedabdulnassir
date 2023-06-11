@@ -147,3 +147,19 @@ img {
   cursor: pointer;
 }
 
+#button:hover {
+  color: #e63946;
+  background-color: white;
+  animation: 0.2s linear 0s 1 forwards buttonAnimation;
+}
+
+@keyframes buttonAnimation {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-4px);
+  }
+}
+
