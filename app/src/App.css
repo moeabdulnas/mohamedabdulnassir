@@ -50,7 +50,7 @@ body {
 }
 
 .devicon-linkedin-plain {
-  margin-right: 2.5vw;
+  margin-right: 2.5rem;
 }
 
 a {
@@ -73,7 +73,7 @@ a {
 }
 
 .containerText {
-  font-size: 1.5vw;
+  font-size: 2rem;
 }
 
 img {
@@ -109,7 +109,7 @@ img {
 }
 
 #techText {
-  font-size: 1.6vw;
+  font-size: 2.5rem;
 }
 
 .stack {
@@ -138,7 +138,7 @@ img {
 }
 
 #button {
-  font-size: 1.2vw;
+  font-size: 1.2rem;
   padding: 1rem 2rem;
   color: white;
   background-color: #e63946;
