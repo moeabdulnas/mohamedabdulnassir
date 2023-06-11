@@ -17,11 +17,17 @@ function App() {
         </div>
       </div>
         <div className="container">
-          <div className="containerText">
-            <h1 id="greeting">Hello <span id="wave">👋</span></h1>
-            <h1 id="name">I'm Mohamed Abdulnassir</h1>
-            <h3>Software developer</h3>
-            <h5>Linköping, Sweden</h5>
+          <div className="about">
+            <div className="aboutText">
+              <h1 id="greeting">Hello <span id="wave">👋</span></h1>
+              <h1 id="name">I'm Mohamed Abdulnassir</h1>
+              <h3>Software developer</h3>
+              <h5>Linköping, Sweden</h5>
+            </div>
+            <div className="imageContainer">
+              <img src={img} alt="profile"></img>
+            </div>
+          </div>
 
             <div className="techContainer">
               <h1 id="techText">Technologies I mainly use</h1>
@@ -64,8 +70,6 @@ function App() {
                 </div>           
               </div>
             </div>
-          </div>
-            <img src={img} alt="profile"></img>
         </div>
         {/*Container ends here */}
         <div id="buttonContainer">

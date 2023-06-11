@@ -63,6 +63,30 @@ a {
   position: relative;
   top: 24px;
 }
+/*Restyling*/
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto auto;
+}
+
+#greeting, #name {
+  font-size: 4rem;
+}
+
+/* .imageContainer {
+  max-width: 30%;
+} */
+img {
+  max-width: 40%;
+  border-radius: 8px;
+}
+
+
+
+/* 
 .container {
   margin: 10vh auto;
   display: flex;
@@ -148,8 +172,6 @@ img {
 }
 
 #button:hover {
-  /* color: #e63946;
-  background-color: white; */
   animation: 0.2s linear 0s 1 forwards buttonAnimation;
 }
 
@@ -167,5 +189,5 @@ img {
   img {
     display: none;
   }
-}
+} */
 
