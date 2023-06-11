@@ -68,23 +68,41 @@ a {
 .about {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 100%;
   margin: auto auto;
+  font-size: 2rem;
 }
 
-#greeting, #name {
-  font-size: 4rem;
-}
-
-/* .imageContainer {
-  max-width: 30%;
+/* #greeting, #name {
+  font-size: 5rem;
 } */
+
+.container {
+  width: 60vw;
+  margin: 0 auto;
+}
+
 img {
-  max-width: 40%;
+  max-width: 180px;
   border-radius: 8px;
 }
 
+@media only screen and (max-width: 920px) {
+  img {
+    display: none;
+  }
 
+  .about {
+    font-size: 1.2rem;
+  }
+
+  /* .container {
+    margin: 0 auto;
+    width: 90vw;
+    text-align: center;
+  } */
+
+}
 
 /* 
 .container {
