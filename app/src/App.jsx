@@ -30,7 +30,7 @@ function App() {
           </div>
         </div>
 
-        <div className="techContainer">
+        {/* <div className="techContainer">
           <h1 id="techText">Technologies I mainly use</h1>
           <div className="stack"> 
             <div className="javascript tech">
@@ -70,12 +70,12 @@ function App() {
               <p id="tech-name">css</p>
             </div>           
           </div>
-        </div>
+        </div> */}
       </div>
         {/*Container ends here */}
-      <div id="buttonContainer">
+      {/* <div id="buttonContainer">
         <button id="button">Get in touch</button>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -64,46 +64,28 @@ a {
   top: 24px;
 }
 /*Restyling*/
+.container {
+  width: min(70vw, 90%);
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
 
 .about {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  margin: auto auto;
-  font-size: 2rem;
-}
-
-/* #greeting, #name {
-  font-size: 5rem;
-} */
-
-.container {
-  width: 60vw;
-  margin: 0 auto;
 }
 
 img {
-  max-width: 180px;
+  width: min(140px, 200px);
   border-radius: 8px;
 }
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 970px){
   img {
     display: none;
   }
-
-  .about {
-    font-size: 1.2rem;
-  }
-
-  /* .container {
-    margin: 0 auto;
-    width: 90vw;
-    text-align: center;
-  } */
-
+  
 }
-
 /* 
 .container {
   margin: 10vh auto;
