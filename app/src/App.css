@@ -67,17 +67,120 @@ a {
 .container {
   width: min(70vw, 90%);
   margin: 0 auto;
-  font-size: 1.5rem;
+  animation-name: containerAnimation; 
+  animation-duration: 0.5s;        
+  animation-iteration-count: 1; 
+}
+
+@keyframes containerAnimation {
+  from {
+    opacity: 20%;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 100%;
+    transform: translateY(0px);
+  }
 }
 
 .about {
   display: flex;
   justify-content: space-between;
+  font-size: 1.5rem;
 }
 
 img {
   width: min(140px, 200px);
   border-radius: 8px;
+}
+
+#wave {
+  animation-name: wave-animation; 
+  animation-duration: 2.5s;        
+  animation-iteration-count: infinite;  
+  transform-origin: 70% 70%;       
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(18.0deg) }  
+   20% { transform: rotate(-6.0deg) }
+   30% { transform: rotate(25.0deg) }
+   40% { transform: rotate(-6.0deg) }
+   50% { transform: rotate(15.0deg) }
+   60% { transform: rotate( 0.0deg) }  
+   70% { transform: rotate(6deg) }
+   80% { transform: rotate( 0.0deg) }  
+  100% { transform: rotate( 0.0deg) }
+}
+
+
+.techContainer {
+  margin-top: 5%;
+  /* position: absolute; */
+  text-align: center;
+}
+
+#techText {
+  font-size: 2.5rem;
+}
+
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2%;
+  width: inherit;
+}
+
+.tech {
+  text-align: center;
+  margin-right: 16px;
+  margin-top: 4px;
+}
+
+#tech-name {
+  font-size: 1.5rem;
+  color: #f1faee;
+}
+
+.tech-icon {
+  font-size: 2.5rem;
+}
+
+#buttonContainer {
+  text-align: center;
+  margin-top: 5%;
+}
+
+#button {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: #e63946;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#button:hover {
+  animation: 0.2s linear 0s 1 forwards buttonAnimation;
+}
+
+#button:hover {
+  animation: 0.2s linear 0s 1 forwards buttonAnimation;
+}
+
+@keyframes buttonAnimation {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-4px);
+  }
 }
 
 @media only screen and (max-width: 970px){
