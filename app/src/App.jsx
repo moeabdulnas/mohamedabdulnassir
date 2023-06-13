@@ -19,7 +19,7 @@ function App() {
           </a>
         </div>
       </div>
-      {contact ? <Contact/>: <><div className="container">
+      {contact ? <Contact setContact={setContact}/>: <><div className="container">
         <div className="about">
           <div className="aboutText">
             <h1 id="greeting">Hello <span id="wave">👋</span></h1>

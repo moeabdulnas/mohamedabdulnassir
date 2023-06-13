@@ -168,10 +168,6 @@ img {
   animation: 0.2s linear 0s 1 forwards buttonAnimation;
 }
 
-#button:hover {
-  animation: 0.2s linear 0s 1 forwards buttonAnimation;
-}
-
 @keyframes buttonAnimation {
   from {
     transform: translateY(0);
@@ -192,9 +188,6 @@ img {
     margin-top: 3rem;
     text-align: center;
   }
-
-  
-  
 }
 
 @media only screen and (max-width: 970px){

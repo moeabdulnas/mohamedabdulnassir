@@ -5,7 +5,7 @@ const Contact = (props) => {
     const [sent, setSent] = useState(false);
     return (
         <div className="contact">
-            <h1>Get in touch</h1>
+            <h1 id="heading">Get in touch</h1>
             <div className="contactContainer">
                 <form action="" className="form">
                     <div className="nameDiv">
@@ -23,8 +23,12 @@ const Contact = (props) => {
                 </form>
             </div>
             <div className="contactButtonsContainer">
-                <button id="back">Go back</button>
-                <button id="send">Send message</button>
+                <button id="back" onClick={() => {
+                    props.setContact(false);
+                }}>Go back</button>
+                <button id="send" onClick={() => {
+                    setSent(true);
+                }}>Send message</button>
             </div>
         </div>
     )

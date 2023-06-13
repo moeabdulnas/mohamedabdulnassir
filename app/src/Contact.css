@@ -31,7 +31,7 @@ height: auto;
     --send-color: #14AE5C;
     --input-bg-color: #F1FAEE;
  }
-h1 {
+#heading {
     text-align: center;
     font-size: 3rem;
 }
@@ -44,8 +44,6 @@ h1 {
     color: black;
     border-radius: 12px;
 }
-
-
 
 .form {
     padding: 1rem;
@@ -81,7 +79,6 @@ h1 {
 .contactButtonsContainer {
     display: flex;
     justify-content: center;
-    
 }
 
 #back,
