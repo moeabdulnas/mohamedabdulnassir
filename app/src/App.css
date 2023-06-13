@@ -67,11 +67,13 @@ a {
 .container {
   width: min(70vw, 90%);
   margin: 0 auto;
+}
+
+.container, #buttonContainer {
   animation-name: containerAnimation; 
   animation-duration: 0.5s;        
   animation-iteration-count: 1; 
 }
-
 @keyframes containerAnimation {
   from {
     opacity: 20%;
