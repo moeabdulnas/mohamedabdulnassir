@@ -118,7 +118,7 @@ img {
 
 
 .techContainer {
-  margin-top: 5%;
+  margin-top: 8rem;
   /* position: absolute; */
   text-align: center;
 }
@@ -152,7 +152,7 @@ img {
 
 #buttonContainer {
   text-align: center;
-  margin-top: 5%;
+  margin-top: 2rem;
 }
 
 #button {
@@ -183,11 +183,34 @@ img {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .about, .container {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    width: 90vw;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+}
+
 @media only screen and (max-width: 970px){
   img {
     display: none;
   }
   
+}
+
+@media only screen and (min-width:1300px) {
+  .about {
+    font-size: 2.5rem;
+  }
+
+  img {
+    width: min(180px, 240px);
+  }
 }
 /* 
 .container {
