@@ -6,7 +6,8 @@ const Contact = (props) => {
     return (
         <div className="contact">
             <h1 id="heading">Get in touch</h1>
-            <div className="contactContainer">
+            { !sent ? (
+                <><div className="contactContainer">
                 <form action="" className="form">
                     <div className="nameDiv">
                         <label htmlFor="name">Your name:</label>
@@ -29,7 +30,8 @@ const Contact = (props) => {
                 <button id="send" onClick={() => {
                     setSent(true);
                 }}>Send message</button>
-            </div>
+            </div></>
+            ):  (<><div className="contactContainer"><h1 id="sentHeading">Sent!</h1></div></>)}
         </div>
     )
 }
