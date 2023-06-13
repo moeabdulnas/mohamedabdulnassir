@@ -1,6 +1,8 @@
+import { useState } from "react";
 import "./Contact.css"
 
 const Contact = (props) => {
+    const [sent, setSent] = useState(false);
     return (
         <div className="contact">
             <h1>Get in touch</h1>
@@ -16,7 +18,7 @@ const Contact = (props) => {
                     </div>
                     <div className="messageDiv">
                         <label htmlFor="message">Message:</label>
-                        <textarea name="message" id="message" rows="10"></textarea>
+                        <textarea name="message" id="message" rows="20"></textarea>
                     </div>
                 </form>
             </div>
