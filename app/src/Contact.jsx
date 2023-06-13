@@ -22,6 +22,10 @@ const Contact = (props) => {
                     </div>
                 </form>
             </div>
+            <div className="contactButtonsContainer">
+                <button id="back">Go back</button>
+                <button id="send">Send message</button>
+            </div>
         </div>
     )
 }
