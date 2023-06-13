@@ -8,18 +8,18 @@ const Contact = (props) => {
             <h1 id="heading">Get in touch</h1>
             { !sent ? (
                 <><div className="contactContainer">
-                <form action="" className="form">
+                <form action="" className="form" id="contactForm">
                     <div className="nameDiv">
                         <label htmlFor="name">Your name:</label>
-                        <input type="text" id="name"/>
+                        <input type="text" id="name" required/>
                     </div>
                     <div className="emailDiv">
                         <label htmlFor="email">Your email:</label>
-                        <input type="email" id="email"/>
+                        <input type="email" id="email" required/>
                     </div>
                     <div className="messageDiv">
                         <label htmlFor="message">Message:</label>
-                        <textarea name="message" id="message" rows="20"></textarea>
+                        <textarea name="message" id="message" rows="20" required></textarea>
                     </div>
                 </form>
             </div>
@@ -27,7 +27,7 @@ const Contact = (props) => {
                 <button id="back" onClick={() => {
                     props.setContact(false);
                 }}>Go back</button>
-                <button id="send" onClick={() => {
+                <button type="submit" form="contactForm" id="send" onClick={() => {
                     setSent(true);
                 }}>Send message</button>
             </div></>
