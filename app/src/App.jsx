@@ -1,8 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import img from "./img.png";
+import { useState } from 'react';
+import Contact from './Contact';
 
 function App() {
+  const [contact, setContact] = useState(false);
   return (
     <div className="App">
       <div className="header">
@@ -16,8 +19,7 @@ function App() {
           </a>
         </div>
       </div>
-
-      <div className="container">
+      {contact ? <Contact/>: <><div className="container">
         <div className="about">
           <div className="aboutText">
             <h1 id="greeting">Hello <span id="wave">👋</span></h1>
@@ -32,50 +34,49 @@ function App() {
 
         <div className="techContainer">
           <h1 id="techText">Technologies I mainly use</h1>
-          <div className="stack"> 
+          <div className="stack">
             <div className="javascript tech">
               <i class="devicon-javascript-plain colored tech-icon"></i>
               <p id="tech-name">javascript</p>
-            </div>           
+            </div>
             <div className="python tech">
               <i class="devicon-python-plain colored tech-icon"></i>
               <p id="tech-name">python</p>
-            </div>           
+            </div>
             <div className="react tech">
               <i class="devicon-react-original colored tech-icon"></i>
               <p id="tech-name">react</p>
-            </div>           
+            </div>
             <div className="git tech">
-              <i class="devicon-git-plain colored tech-icon"></i> 
+              <i class="devicon-git-plain colored tech-icon"></i>
               <p id="tech-name">git</p>
-            </div>           
+            </div>
             <div className="node tech">
               <i class="devicon-nodejs-plain colored tech-icon"></i>
               <p id="tech-name">node.js</p>
-            </div>           
+            </div>
             <div className="express tech">
               <i class="devicon-express-original tech-icon"></i>
               <p id="tech-name">express</p>
-            </div>           
+            </div>
             <div className="mongodb tech">
               <i class="devicon-mongodb-plain colored tech-icon"></i>
               <p id="tech-name">mongodb</p>
-            </div>           
+            </div>
             <div className="html tech">
               <i class="devicon-html5-plain colored tech-icon"></i>
               <p id="tech-name">html</p>
-            </div>           
+            </div>
             <div className="css tech">
               <i class="devicon-css3-plain colored tech-icon"></i>
               <p id="tech-name">css</p>
-            </div>           
+            </div>
           </div>
         </div>
-      </div>
-        {/*Container ends here */}
-      <div id="buttonContainer">
-        <button id="button">Get in touch</button>
-      </div>
+      </div><div id="buttonContainer">
+          <button id="button" onClick={() => setContact(true)}>Get in touch</button>
+        </div></>
+      }
     </div>
   );
 }
