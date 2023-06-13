@@ -120,7 +120,6 @@ img {
 .techContainer {
   margin-top: 8rem;
   /* position: absolute; */
-  text-align: center;
 }
 
 #techText {
@@ -129,8 +128,6 @@ img {
 
 .stack {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   margin-top: 2%;
   width: inherit;
 }
@@ -152,7 +149,7 @@ img {
 
 #buttonContainer {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 6rem;
 }
 
 #button {
@@ -193,12 +190,24 @@ img {
     margin-top: 3rem;
     text-align: center;
   }
+
+  
   
 }
 
 @media only screen and (max-width: 970px){
   img {
     display: none;
+  }
+
+  .techContainer {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .stack {
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
 }
