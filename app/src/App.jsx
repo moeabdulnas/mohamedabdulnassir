@@ -23,7 +23,7 @@ function App() {
         <div className="about">
           <div className="aboutText">
             <h1 id="greeting">Hello <span id="wave">👋</span></h1>
-            <h1 id="name">I'm Mohamed Abdulnassir</h1>
+            <h1 id="myName">I'm Mohamed Abdulnassir</h1>
             <h3>Software developer</h3>
             <h5>Linköping, Sweden</h5>
           </div>

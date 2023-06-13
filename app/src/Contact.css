@@ -25,17 +25,23 @@ height: auto;
 
 
 /* Styling */
-
+:root {
+    --main-bg-color: #A8DADC;
+    --back-color: #E63946;
+    --send-color: #14AE5C;
+    --input-bg-color: #F1FAEE;
+ }
 h1 {
     text-align: center;
     font-size: 3rem;
 }
 
 .contactContainer {
-    background-color: black;
+    background-color: var(--main-bg-color);
     width: 40%;
     font-size: 1.5rem;
     margin: 0 auto;
+
 }
 
 .form {
@@ -47,6 +53,7 @@ h1 {
 .emailDiv {
     display: grid;
     grid-template-columns: 1.5fr 4fr;
+    margin-bottom: 0.5rem;
 }
 
 .messageDiv {
@@ -57,8 +64,10 @@ h1 {
 #name,
 #email,
 #message {
-    border-radius: 8px;
+    border: none;
+    border-radius: 4px;
     padding: 0.5rem;
+    background-color: var(--input-bg-color);
 }
 
 
