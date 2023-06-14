@@ -31,7 +31,10 @@ const Contact = (props) => {
                     setSent(true);
                 }}>Send message</button>
             </div></>
-            ):  (<><div className="contactContainer"><h1 id="sentHeading">Sent!</h1></div></>)}
+            ):  (<><div className="contactContainer"><h1 id="sentHeading">Sent!</h1></div><div className="contactButtonsContainer">
+            <button id="back" onClick={() => {
+                props.setContact(false);
+            }}>Go back</button></div></>)}
         </div>
     )
 }
