@@ -221,3 +221,13 @@ img {
     width: min(180px, 240px);
   }
 }
+
+@media (max-width: 800px) {
+  #button:hover, #back:hover, #send:hover {
+   -webkit-animation: none !important;
+   -moz-animation: none !important;
+   -o-animation: none !important;
+   -ms-animation: none !important;
+   animation: none !important;
+  }
+}
