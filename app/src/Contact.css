@@ -94,6 +94,10 @@ textarea:focus, input:focus{
     background-color: var(--input-bg-color);
 }
 
+#message {
+    height: 314px;
+}
+
 #name:valid,
 #email:valid,
 #message:valid {
@@ -132,10 +136,6 @@ textarea:focus, input:focus{
 
 textarea {
     resize: none;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-
 }
 
 @keyframes buttonAnimation {

@@ -51,7 +51,7 @@ const Contact = (props) => {
               </div>
               <div className="messageDiv">
                 <label htmlFor="message">Message:</label>
-                <textarea name="message" id="message" rows="20" required></textarea>
+                <textarea name="message" id="message" required></textarea>
               </div>
             </form>
           </div>
