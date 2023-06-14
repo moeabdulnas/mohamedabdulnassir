@@ -14,9 +14,9 @@ function App() {
         }} id="m">M.A</h1>
         <div className="links">
           <a href="https://www.linkedin.com/in/mohamedabdulnassir/">
-            <i className="devicon-linkedin-plain header-icon"></i>
+            <i className="devicon-linkedin-plain header-icon" target="_blank" rel="noopener noreferrer"></i>
           </a>
-          <a href="https://github.com/moeabdulnas">
+          <a href="https://github.com/moeabdulnas" target="_blank" rel="noopener noreferrer">
             <i className="devicon-github-original header-icon"></i>
           </a>
         </div>
