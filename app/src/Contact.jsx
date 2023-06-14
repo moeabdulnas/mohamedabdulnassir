@@ -3,6 +3,7 @@ import "./Contact.css"
 
 const Contact = (props) => {
     const [sent, setSent] = useState(false);
+    // <span id="asterisk">*</span> 
     return (
         <div className="contact">
             <h1 id="heading">Get in touch</h1>

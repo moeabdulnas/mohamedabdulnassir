@@ -53,6 +53,10 @@ height: auto;
     border-radius: 12px;
 }
 
+#asterisk {color: var(--back-color);}
+
+
+
 .form {
     padding: 1rem;
     margin-top: 1rem;
@@ -82,10 +86,17 @@ textarea:focus, input:focus{
 #name,
 #email,
 #message {
-    border: none;
+    border: 1px solid #00000000;
     border-radius: 4px;
     padding: 0.5rem;
     background-color: var(--input-bg-color);
+}
+
+#name:valid,
+#email:valid,
+#message:valid {
+    border: 1px solid;
+    border-color: var(--send-color);
 }
 
 .contactButtonsContainer {
