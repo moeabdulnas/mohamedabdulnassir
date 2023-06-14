@@ -27,6 +27,8 @@ img {
 
 
 /* Styling */
+
+/*Header styling*/
 body {
   background-color: #1D3557;
   font-family: system-ui, "Segoe UI", "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -37,6 +39,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 3% 8%;
+  vertical-align: middle;
 }
 
 #m {
@@ -59,12 +62,16 @@ a {
   text-decoration: none;
 }
 
+.links {
+  display: flex;
+  align-items: center;
+}
+
 .header-icon{
   font-size: 2rem;
-  position: relative;
-  top: 24px;
 }
-/*Restyling*/
+
+/*Container styling*/
 .container {
   width: min(70vw, 90%);
   margin: 0 auto;
@@ -119,7 +126,7 @@ img {
   100% { transform: rotate( 0.0deg) }
 }
 
-
+/* Tech container styling */
 .techContainer {
   margin-top: 8rem;
   /* position: absolute; */
