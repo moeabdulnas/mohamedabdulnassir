@@ -193,6 +193,18 @@ img {
   #button {
     margin-bottom: 4rem;
   }
+
+  .header {
+    margin: 5% 8%;
+  }
+
+  #m {
+    font-size: 2rem;
+  }
+
+  .header-icon{
+    top: 0.8rem;
+  }
 }
 
 @media only screen and (max-width: 970px){
