@@ -14,10 +14,10 @@ function App() {
         }} id="m">M.A</h1>
         <div className="links">
           <a href="https://www.linkedin.com/in/mohamedabdulnassir/">
-            <i class="devicon-linkedin-plain header-icon"></i>
+            <i className="devicon-linkedin-plain header-icon"></i>
           </a>
           <a href="https://github.com/moeabdulnas">
-            <i class="devicon-github-original header-icon"></i>
+            <i className="devicon-github-original header-icon"></i>
           </a>
         </div>
       </div>
@@ -38,39 +38,39 @@ function App() {
           <h1 id="techText">Technologies I mainly use</h1>
           <div className="stack">
             <div className="javascript tech">
-              <i class="devicon-javascript-plain colored tech-icon"></i>
+              <i className="devicon-javascript-plain colored tech-icon"></i>
               <p id="tech-name">javascript</p>
             </div>
             <div className="python tech">
-              <i class="devicon-python-plain colored tech-icon"></i>
+              <i className="devicon-python-plain colored tech-icon"></i>
               <p id="tech-name">python</p>
             </div>
             <div className="react tech">
-              <i class="devicon-react-original colored tech-icon"></i>
+              <i className="devicon-react-original colored tech-icon"></i>
               <p id="tech-name">react</p>
             </div>
             <div className="git tech">
-              <i class="devicon-git-plain colored tech-icon"></i>
+              <i className="devicon-git-plain colored tech-icon"></i>
               <p id="tech-name">git</p>
             </div>
             <div className="node tech">
-              <i class="devicon-nodejs-plain colored tech-icon"></i>
+              <i className="devicon-nodejs-plain colored tech-icon"></i>
               <p id="tech-name">node.js</p>
             </div>
             <div className="express tech">
-              <i class="devicon-express-original tech-icon"></i>
+              <i className="devicon-express-original tech-icon"></i>
               <p id="tech-name">express</p>
             </div>
             <div className="mongodb tech">
-              <i class="devicon-mongodb-plain colored tech-icon"></i>
+              <i className="devicon-mongodb-plain colored tech-icon"></i>
               <p id="tech-name">mongodb</p>
             </div>
             <div className="html tech">
-              <i class="devicon-html5-plain colored tech-icon"></i>
+              <i className="devicon-html5-plain colored tech-icon"></i>
               <p id="tech-name">html</p>
             </div>
             <div className="css tech">
-              <i class="devicon-css3-plain colored tech-icon"></i>
+              <i className="devicon-css3-plain colored tech-icon"></i>
               <p id="tech-name">css</p>
             </div>
           </div>
