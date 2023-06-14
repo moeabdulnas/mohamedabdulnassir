@@ -9,7 +9,9 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <h1 id="m">M.A</h1>
+        <h1 onClick={() => {
+          window.location.reload(false);
+        }} id="m">M.A</h1>
         <div className="links">
           <a href="https://www.linkedin.com/in/mohamedabdulnassir/">
             <i class="devicon-linkedin-plain header-icon"></i>

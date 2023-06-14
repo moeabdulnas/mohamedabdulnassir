@@ -47,6 +47,7 @@ body {
   border-radius: 8px;
   font-family: 'Italianno', cursive;
   font-weight: 550;
+  cursor: pointer;
 }
 
 .devicon-linkedin-plain {
